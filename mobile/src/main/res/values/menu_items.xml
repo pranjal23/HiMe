@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="menu_items">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Hi\'s Received</item>
+        <item>About Hi->Me</item>
+    </array>
+</resources>

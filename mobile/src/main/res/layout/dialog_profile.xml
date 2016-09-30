@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/dialog_cover_image"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:layout_margin="10dp" />
+
+    <ImageView
+        android:id="@+id/dialog_profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/default_picture" />
+
+    <TextView
+        android:id="@+id/dialog_profile_name"
+        android:layout_toRightOf="@id/dialog_profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Primary" />
+
+    <TextView
+        android:id="@+id/dialog_profile_details"
+        android:layout_toRightOf="@id/dialog_profile_image"
+        android:layout_below="@id/dialog_profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Secondary"
+        android:textAlignment="center" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/fb_btn"
+            android:layout_alignParentRight="true"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:padding="5dp"
+            android:background="@drawable/selector_btn"
+            android:textColor="@android:color/white"
+            android:text="View on FB"/>
+
+        <Button
+            android:id="@+id/hi_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:padding="5dp"
+            android:background="@drawable/selector_btn"
+            android:textColor="@android:color/white"
+            android:text="Say Hi!"/>
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_alignParentLeft="true"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/selector_btn"
+            android:text="Done"/>
+    </RelativeLayout>
+
+</LinearLayout>

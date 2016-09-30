@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hi->Me</string>
+    <string name="drawer_open">Drawer Opened</string>
+    <string name="drawer_close">Drawer Closed</string>
+    <string name="menu">Menu</string>
+    <string name="home">Home</string>
+    <string name="become_visible">Become Visible</string>
+    <string name="go_invisible">Go Invisible</string>
+    <string name="facebook_app_id">377945492409032</string>
+    <string name="visibility">Visibility</string>
+</resources>
